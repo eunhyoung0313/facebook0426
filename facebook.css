@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+}
+.logoline{display:flex; justify-content: space-between;}
+.logo{width:110px; height:24px; }
+.logo_icon{display:flex; justify-content: flex-end;}
+
+.story{
+    display:flex; justify-content: flex-start;
+}
+.story1{
+    margin: 5px 10px;
+    width:80px;
+    height:120px;
+    display:flex; flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.story_content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 222, 222);
+    font-size: 11px;
+    height: 200px;
+}
+.circle{
+    color:blue;
+    position: absolute;
+    top:100px;
+    left: 39px;
+}
+.story1_image{
+    width:80px;
+    height:84px;
+}
+.story2{
+    
+    margin: 5px 0px;
+    width:80px;
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.story2_profile{
+    margin: 5px 5px;
+    width: 30px;
+    height:30px;
+    border:4px solid rgb(49, 49, 206);
+    border-radius:50%;
+    position: absolute; z-index: 3;}
+.story2_background{  
+     position: absolute; z-index:0;
+     border-radius: 5px;
+     width: 80px;
+     height: 120px;
+     box-sizing: border-box;
+}
+.addpost{
+    border-top: 6px solid rgb(211, 205, 205);
+    border-bottom: 6px solid rgb(211, 205, 205);
+}
+.addpost_line{
+    display:flex;
+    justify-content: space-between;
+}
+.addpost_line > div {
+    width:33.3%;
+}
+.status{
+    height:50px;
+    margin-left:5px;
+    display:flex;
+    align-items: center;
+    
+}
+.status_content{
+    font-weight: 500;
+}
+
+.status_image{
+    width:35px;
+    height:35px;
+    border:1px solid transparent;
+    border-radius: 50%;
+}
+.addpost_line{
+    display:flex;
+    border-top: 1px solid rgb(184, 180, 180) ;
+}
+.live{
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px solid rgb(184, 180, 180) ;
+}
+.photo{
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px solid rgb(184, 180, 180) ;
+}
+.checkin{
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content_top{
+    display:flex;
+    flex-direction: column;
+}
+.top_wrapper{
+    display:flex;
+}
+.content_profile{
+    margin: 6px 6px;
+    width:35px;
+    height:35px;
+    border:1px solid transparent;
+    border-radius: 50%;
+}
+.linewrapper{
+    display:flex;
+    flex-direction:column;
+}
+.contentline1{
+    display:flex;
+    justify-content: space-between;
+    font-weight:bold;
+    font-size:16px;
+}
+.contentline2{
+    display:flex;
+    align-items: center;
+}
+.line2_color{
+    font-size:14px;
+    color:rgba(184, 180, 180,0.95)
+    
+}
+.more{
+    color:rgba(184, 180, 180,0.95)
+}
+.margin_p{
+    margin-left:10px;
+}
+.pictures{
+    height:100vw;
+    width:100vw;
+    display:flex;
+}
+.pictureline1{
+    width:70%;
+}
+.pictureline2{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+}
+.box1{
+    width:100%;
+    height:100%;
+}
+.box{
+    height:33.3%
+}
+.like{
+    display:flex;
+    align-items: center;
+}
+.picturebottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.likeright{
+    display:flex;
+    align-items: center;
+}
+.like_image{
+    
+    width:15px;
+    border:1px solid transparent;
+    border-radius: 50%;
+
+}
+.detail{
+    font-size:18px !important;
+}
+
+.picture_end{
+    display:flex;
+    justify-content: space-between;
+}
+.end{
+    display:flex;
+    align-items: center;
+}
+.footer{
+    background-color: white;
+    border-top: 5px solid rgba(184, 180, 180,0.95) ;
+    position: fixed;
+    bottom: 5px;
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+.home {
+    border-top: 1px solid rgb(18, 18, 216) ;
+}
+
+.gray {
+    color:rgb(139, 139, 139) !important;
+    
+}
+.small{
+    
+    font-size: 15px !important;
+}
+.blue{
+    color:rgb(49, 49, 206) !important;
+}
+
+.material-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
